@@ -1,0 +1,113 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.input-container{
+   width: 100%;
+   height: 10%;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+
+}
+input{
+  border-radius: 20px;
+    font-size: 20px;
+    padding: 5dpx;
+    padding-left: 10px;
+}
+button{
+    width: 55px;
+    height: 30px;
+    border-radius: 15px;
+    
+}
+.weather-app{
+    width: 25%;
+    border: 5px solid black;
+    background-color: deepskyblue;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.weather-img{
+   width: 50%;
+}
+.temp{
+    font-size: 40px;
+}
+.city{
+    font-size: 25px;
+}
+.other-information{
+    width: 80%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@media screen and (max-width:600px){
+    .weather-app{
+        width: 100%;
+        height: 100vh;
+        border: none;
+    }
+}
+@media screen and (max-width:667px){
+    .weather-app{
+        width: 100%;
+        height: 100vh;
+        border: none;
+    }
+}
+@media screen and (max-width:896px){
+    .weather-app{
+        width: 100%;
+        height: 100vh;
+        border: none;
+    }
+}
+@media screen and (max-width:844px){
+    .weather-app{
+        width: 100%;
+        height: 100vh;
+        border: none;
+    }
+    
+}
+@media screen and (max-width:932px){
+    .weather-app{
+        width: 100%;
+        height: 100vh;
+        border: none;
+    }
+    
+}
+@media screen and (max-width:915px){
+    .weather-app{
+        width: 100%;
+        height: 100vh;
+        border: none;
+    }
+}
+@media screen and (max-width:740px){
+    .weather-app{
+        width: 100%;
+        height: 100vh;
+        border: none;
+    }
+}
+@media screen and (max-width:1024px){
+    .weather-app{
+        width: 100%;
+        height: 100vh;
+        border: none;
+    }
+}
